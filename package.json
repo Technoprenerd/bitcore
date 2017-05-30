@@ -1,7 +1,7 @@
 {
-  "name": "bitcore",
+  "name": "bitcore-zcoin",
   "version": "4.1.1",
-  "description": "A platform to build bitcoin and blockchain-based applications.",
+  "description": "A platform to build zcoin and blockchain-based applications.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -59,7 +59,7 @@
     }
   ],
   "keywords": [
-    "bitcoin",
+    "zcoin",
     "transaction",
     "address",
     "p2p",
@@ -76,16 +76,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore.git"
+    "url": "https://github.com/technoprenerd/bitcore-zcoin.git"
   },
   "browser": {
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.14",
-    "bitcore-node": "~3.1.0",
-    "insight-api": "^0.4.0",
-    "insight-ui": "^0.4.0"
+    "bitcore-lib-zcoin": "git://github.com/Technoprenerd/bitcore-lib-zcoin.git",
+    "bitcore-node-zcoin": "git://github.com/Technoprenerd/bitcore-node-zcoin.git",
+    "insight-api-zcoin": "git://github.com/Technoprenerd/insight-api-zcoin-node.git",
+    "insight-ui-zcoin": "git://github.com/Technoprenerd/insight-ui-zcoin.git"
   },
   "license": "MIT",
   "devDependencies": {

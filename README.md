@@ -8,6 +8,19 @@ Infrastructure to build Bitcoin and blockchain-based applications for the next g
 
 **Note:** If you're looking for the Bitcore Library please see: https://github.com/bitpay/bitcore-lib
 
+TODO:
+
+'''
+Change the following to include github links, since no npm repo yet.
+
+ "bitcore-lib": "^0.14",
+    "bitcore-node": "~3.1.0",
+    "insight-api": "^0.4.0",
+    "insight-ui": "^0.4.0" 
+
+'''
+
+
 ## Getting Started
 
 Before you begin you'll need to have Node.js v4 or v0.12 installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
